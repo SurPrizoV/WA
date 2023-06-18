@@ -1,0 +1,31 @@
+.not_found {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.button {
+  width: 193px;
+  margin-top: 16px;
+  padding: 4px 0;
+  border-radius: 10px;
+  border: none;
+  background-color: #6dbd80;
+  transition: all 0.5s;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 8px 16px 64px rgb(183, 226, 183);
+}

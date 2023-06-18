@@ -1,0 +1,123 @@
+.main {
+  margin-top: 96px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 5fr 1fr;
+  height: 500px;
+  width: 700px;
+  box-shadow: 8px 16px 64px rgb(183, 226, 183);
+}
+
+.chats {
+  background-color: #fcfcfc;
+  border-right: 1px solid #6dbd80;
+  border-radius: 10px 0 0 10px;
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/4;
+  grid-template-rows: 1fr 6fr;
+}
+
+.title {
+  align-items: center;
+  background-color: #6dbd80;
+  border-radius: 10px 0 0 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.item {
+  padding: 20px;
+  border-bottom: 1px solid #6dbd80;
+}
+
+.title_data {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  background-color: #f0f8ff;
+  border-radius: 0 10px 0 0;
+  justify-content: space-between;
+}
+
+.button_create {
+  border-radius: 10px;
+  border: none;
+  background-color: #6dbd80;
+  transition: all 0.5s;
+  color: #fff;
+  margin-right: 15px;
+  padding: 5px;
+  width: 150px;
+}
+
+.button_create:hover {
+  transform: scale(1.1);
+  box-shadow: 8px 16px 64px rgb(183, 226, 183);
+}
+
+.outgoing {
+  padding: 5px;
+  background-color: #6dbd80;
+  color: white;
+  border: 1px solid #6dbd80;
+  border-radius: 10px;
+}
+
+.incoming {
+  padding: 5px;
+  background-color: #6dbd80;
+  color: white;
+  border: 1px solid #6dbd80;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.button {
+  border-radius: 10px;
+  border: none;
+  background-color: #6dbd80;
+  transition: all 0.5s;
+  color: #fff;
+  padding: 5px;
+  width: 150px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 8px 16px 64px rgb(183, 226, 183);
+}
+
+.messages {
+  align-items: flex-end;
+  background-color: #f0f8ff;
+  border-bottom: 1px solid #6dbd80;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.text_message {
+  padding: 16px;
+  display: flex;
+  background-color: #f0f3f6;
+  border-radius: 0 0 10px 0;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.input {
+  border: 1px solid green;
+  border-radius: 20px;
+  padding: 5px;
+  width: 330px;
+}
