@@ -28,3 +28,5 @@
 ## Демо-версия
 
     это для теста!
+
+    git config --global ssh.identity ~/.ssh/default_id_rsa
