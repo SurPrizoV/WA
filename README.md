@@ -27,6 +27,4 @@
 
 ## Демо-версия
 
-    это для теста!
-
-    git config --global ssh.identity ~/.ssh/default_id_rsa
+    https://first-one--cerulean-snickerdoodle-eb7e0c.netlify.app/login
