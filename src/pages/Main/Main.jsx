@@ -50,7 +50,6 @@ export const Main = ({ id, setId, apiToken, setApiToken }) => {
       () =>
         ReceiveMessage(id, apiToken)
           .then((data) => {
-            console.log(data);
             if (data.body.messageData && data.body.messageData.textMessageData) {
               setAllMessages([
                 ...allMessages,
