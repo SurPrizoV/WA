@@ -50,7 +50,7 @@ export const Main = ({ id, setId, apiToken, setApiToken }) => {
       () =>
         ReceiveMessage(id, apiToken)
           .then((data) => {
-            setReceiptId(data.receiptId);
+            console.log(data);
             if (data.body.messageData && data.body.messageData.textMessageData) {
               setAllMessages([
                 ...allMessages,
@@ -64,7 +64,7 @@ export const Main = ({ id, setId, apiToken, setApiToken }) => {
             return data;
           })
           .then((data) => {
-            if (data.receiptId) {
+            if (data.receiptId !== "") {
               DeleteNotification(id, apiToken, data.receiptId);
               setReceiptId("");
             }
